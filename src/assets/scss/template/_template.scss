@@ -1,0 +1,231 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles
+body,
+html,
+.body {
+  background: #f3f3f3 !important;
+}
+
+.image {
+  & > tbody > tr > th {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+/*=================================
+============ LOGO-AREA ============
+=================================*/
+
+.logo-area {
+  h5 {
+    font-size: 0.6rem;
+    font-weight: 300;
+    color: #727272;
+  }
+  a {
+    color: #1155cc;
+    font-weight: normal;
+    text-decoration: underline;
+  }
+  img {
+    width: 50%;
+  }
+}
+
+/*=================================
+============ LA-IS-BACK ===========
+=================================*/
+
+.la-is-back {
+  .undershadow {
+    padding-bottom: 20px;
+  }
+}
+
+/*=================================
+============ INFO-AREA ============
+=================================*/
+
+.info-area {
+  .row {
+    background: rgb(239, 239, 239);
+    background-color: rgb(239, 239, 239);
+  }
+
+  h3 {
+    border-top: 1px solid #ccc;
+    color: rgb(28, 27, 27);
+    font-size: 1rem;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  span {
+    padding-top: 20px;
+    font-size: 0.8rem;
+    font-style: italic;
+    color: rgb(28, 27, 27);
+    padding-bottom: 1px;
+    padding-right: 7px;
+  }
+  p {
+    font-size: 0.9rem;
+    color: rgb(28, 27, 27);
+    margin-bottom: 0;
+  }
+  h6 {
+    font-size: 0.9rem;
+    color: rgb(28, 27, 27);
+  }
+  h5 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 1.5px;
+    line-height: 10px;
+    font-style: italic;
+    font-size: 0.7rem;
+    color: rgb(28, 27, 27);
+    a {
+      color: #1155cc;
+      font-weight: normal;
+      text-decoration: underline;
+    }
+  }
+}
+
+/*=================================
+============== SHIRT ==============
+=================================*/
+
+.shirt {
+  h3 {
+    font-size: 0.7rem;
+    letter-spacing: 1.5px;
+    padding-bottom: 10px;
+  }
+  span {
+    display: block;
+    padding-top: 5px;
+    font-size: 0.7rem;
+    letter-spacing: 1.5px;
+    &.product {
+      font-weight: 700;
+    }
+    &.price {
+      font-weight: 300;
+      padding-bottom: 5px;
+    }
+  }
+  a {
+    background: black;
+    border-radius: 4px;
+    padding: 7px 10px;
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  .model {
+    width: 100%;
+  }
+  .undershadow {
+    padding-bottom: 10px;
+  }
+}
+
+/*=================================
+============ CLEARANCE ============
+=================================*/
+
+.clearance {
+  h5 {
+    padding-top: 25px;
+    border-top: 2px dashed black;
+    font-weight: 300;
+    font-size: 0.7rem;
+    letter-spacing: 1.5px;
+  }
+  img {
+    padding-bottom: 40px;
+  }
+  a {
+    color: black;
+    border: 3px solid black;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 15px 15px;
+  }
+}
+
+/*=================================
+========== HERE-FOR-YOU ===========
+=================================*/
+
+.here-for-you {
+  th {
+    padding-top: 30px;
+  }
+  .h6 {
+    border-bottom: 2px dashed black;
+  }
+}
+
+/*=================================
+============= PROCESS =============
+=================================*/
+
+.process {
+  h6 {
+    font-weight: 300;
+    font-size: 0.7rem;
+  }
+}
+
+/*=================================
+============= DIVIDER =============
+=================================*/
+
+.divider {
+  border-bottom: 1px solid #ccc;
+}
+
+/*=================================
+============= BUTTONS =============
+=================================*/
+
+.buttons {
+  .li {
+    margin-bottom: 5px;
+  }
+}
+
+/*=================================
+========== FOOTER-ICONS ===========
+=================================*/
+
+.footer-icons {
+  img {
+    display: inline-block;
+    width: 40px !important;
+  }
+}
+
+/*=================================
+============= FOOTER ==============
+=================================*/
+
+.footer {
+  span {
+    font-size: 0.6rem;
+    letter-spacing: 2px;
+    a {
+      color: #1155cc;
+      font-weight: normal;
+      text-decoration: underline;
+    }
+  }
+}
